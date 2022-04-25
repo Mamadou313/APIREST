@@ -7,7 +7,7 @@ const app = express();
 app.use(express.json());
 
 mongoose.connect(
-  "mongodb+srv://APIREST313:<Mouride313>@cluster0.mftag.mongodb.net/APIREST?retryWrites=true&w=majority",
+  "mongodb+srv://APIREST313:Mouride313@cluster0.mftag.mongodb.net/APIREST?retryWrites=true&w=majority",
   {
     useNewUrlParser: true,
     useFindAndModify: false,
